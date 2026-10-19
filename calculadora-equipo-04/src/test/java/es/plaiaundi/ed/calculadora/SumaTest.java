@@ -28,5 +28,9 @@ class SumaTest {
         assertEquals(9, calc.sumar(9, 0));
     }
 
-    // TODO Persona A: anade aqui tu propio caso de prueba
+    @Test
+    @DisplayName("5 + (-3) = 2")
+    void sumaConNegPos() {
+        assertEquals(9, calc.sumar(5, (-3)));
+    }
 }
